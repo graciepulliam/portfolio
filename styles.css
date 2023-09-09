@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+  
+  
+  
+  background-image: url("/images/paper.jpg");
+ 
+  background-attachment: absolute;
+
+  background-repeat: no-repeat;
+
+  background-size:100vw 100vh;
+
+  font-family: Roboto;
+  color: rgb(126, 153, 155);
+}
+
+.typing-demo {
+  width: 25ch;
+  animation: typing 5s steps(25), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.profile{
+    display:flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration:none;
+    color: rgb(126, 153, 155);
+}
+.introducingMe{
+    position:absolute;
+    top:35%;
+    padding-left:15px;
+    width:70vw;
+
+   /* background-color: rgb(126, 153, 155);*/
+
+}
+
+
+ footer{
+
+    position: fixed;
+    bottom :0;
+    left:0;
+    width: 100vw;
+    background-color: rgb(126, 153, 155);
+    height : 70px;
+    
+ }
+ ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+
+ }
+
+  .nav{
+    left: 50%;
+    cursor:pointer;
+    display: flex;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+    padding:0;
+    justify-content: center;
+    max-width: 40px;
+    max-height: auto;
+  }
+  .nav:hover{
+    background-color: rgb(156, 180, 182);
+    transition: background-color 500ms linear;
+    border-radius: 50px;
+  }
+  .nav:active{
+    opacity: .5;
+    transition: opacity-color 320ms linear;
+    border-radius: 50px;
+  }
+  
+
+  /* styling for contact.html begins here !!*/
+.attributes{
+  
+  background-color: rgb(126, 153, 155);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border:none;
+    border-radius:30px;
+}
+.names{
+
+  display: flex;
+  justify-content: center;
+}
+
+  .name{
+    font-family: Roboto;
+    border: none;
+    border-radius: 10px;
+    width :105px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500;
+    resize:none;
+  }
+  .email{
+    font-family: Roboto;
+    display: flex;
+  justify-content: center;
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px;
+    width:250px;
+    font-weight: 500;
+    resize:none;
+    
+  }
+
+  .message{
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    width:250px;
+    height: 200px;
+    margin:10px;
+    margin-top:20px;
+    padding:10px;
+    resize: none;
+    font-family: Roboto;
+    font-weight: 500;
+    resize:none;
+  }
+  .buttonDiv{
+    display:block;
+    text-align:center;
+  }
+  .sendMail{
+
+    left:50%;
+ 
+    border-radius: 50px;
+    width:70px;
+    height: 50;
+    margin:10px;
+    padding:10px;
+    font-family: Roboto;
+    background-color: aliceblue;
+    border: none;
+    color: rgb(156, 180, 182);
+    font-weight: 500;
+
+  }
+  .sendMail:hover{
+    background-color: rgb(108, 193, 239);
+    color:white;
+    transition: background-color 500ms linear;
+    border-radius: 50px;
+  }
+  .sendMail:active{
+    opacity: .5;
+    transition: opacity-color 320ms linear;
+    border-radius: 50px;
+  }
